@@ -5,22 +5,21 @@
   </head>
   <body>
     <h1>Hello, World!</h1>
-    <p>This is my project test hosted on GitHub Pages.</p>
+    <p>This is Uzaynet Live Channel hosted on GitHub Pages.</p>
     <script>
-  (function(d,t) {
-    var BASE_URL="https://app.chatwoot.com";
-    var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=BASE_URL+"/packs/js/sdk.js";
-    g.async = true;
-    s.parentNode.insertBefore(g,s);
-    g.onload=function(){
-      window.chatwootSDK.run({
-        websiteToken: 'KHLaPo9KgLSWaTRMxcdKWtfY',
-        baseUrl: BASE_URL
-      })
-    }
-  })(document,"script");
-</script>
-
+    (function(d,t) {
+      var BASE_URL="https://chat.uzaynet.com.tr";
+      var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=BASE_URL+"/packs/js/sdk.js";
+      g.async = true;
+      s.parentNode.insertBefore(g,s);
+      g.onload=function(){
+        window.chatwootSDK.run({
+          websiteToken: 'u53VPTU4d6wabLw2SUWUJgvv',
+          baseUrl: BASE_URL
+        })
+      }
+    })(document,"script");
+  </script>
   </body>
 </html>
